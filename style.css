@@ -50,6 +50,10 @@ h2 {
 	font-style: italic;
 }
 
+#cara{
+	float:right;
+	padding-right:100px;	
+}
 a img { 
 	border: none;
 }
@@ -74,6 +78,7 @@ a:link {
 	height:600px;
 	float: left;
 	background: #fbe7da;
+	border-top:#000;
 }
 
 
@@ -85,12 +90,29 @@ ul {
 	font-size:20px;
 	}
 
-.container .sidebar1 p a {
-	font-size: 12px;
+#email{
+	float:left;
+	padding-left: 105px;
+	padding-top: 65px;
+	
 }
-.container .sidebar1 p a {
-	font-size: 16px;
+#temail{
+	float: right;
+	padding-top: 65px;
+	padding-right:450px;
+	font-size:20px;
+	color: #09C;
 }
-.container .sidebar1 p a {
-	font-size: 18px;
+#telf{
+	float:left;
+	padding-top:135px;
+	padding-left: 105px;
+	
+}
+#ttelf{
+	float: right;
+	padding-top: 65px;
+	padding-right:350px;
+	font-size:20px;
+	color: #09C;
 }
