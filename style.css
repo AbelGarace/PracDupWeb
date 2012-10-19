@@ -10,9 +10,11 @@ body{
 	}
 	
 .container {
-	width: 100%;
-	height:100%;
-	margin: 0 auto; /* el valor automático de los lados, unido a la anchura, centra el diseño */
+
+	width: 1030px;
+	margin-top:30px;
+	margin-left: auto; /* el valor automático de los lados, unido a la anchura, centra el diseño */
+	margin-right:auto;
 	overflow: hidden; /* esta declaración hace que .container conozca dónde terminan las columnas flotantes incluidas y las contenga */
 }
 ul, ol, dl {
@@ -34,7 +36,6 @@ h2 {
 }
 #md{
 	margin-top: 0;	
-	
 	padding-left: 105px; 
 	font-size:24px;
 	font-style:bold;
@@ -59,8 +60,7 @@ a img {
 }
 
 
-a:link {
-	
+a:link {	
 	text-decoration: none; 
 }
 
@@ -88,6 +88,7 @@ ul.nav a, ul.nav a:visited {
 }
 ul {
 	margin-top:80px;
+	margin-left:30px;
 	font-size:20px;
 	}
 	
