@@ -11,7 +11,7 @@ body{
 	
 .container {
 
-	width: 1030px;
+	width: 930px;
 	margin-top:30px;
 	margin-left: auto; /* el valor automático de los lados, unido a la anchura, centra el diseño */
 	margin-right:auto;
@@ -22,20 +22,33 @@ ul, ol, dl {
 	margin: 0;
 }
 h1, h2, h3, h4, h5, h6, p {
-	margin-top: 0;	
+	
 	padding-right: 45px;
 	padding-left: 105px; 
 }
 
 h1 {
+	
 	font-size:44px;
 }
 h2 {
+	padding-top:0px;
 	font-size:24px;
 	color:#069;
 }
+#mn{
+	padding-left: 105px;
+	padding-top:20px;
+	font-size: 44px;	
+}
+#mp{
+	padding-left: 105px;
+	padding-top:20px;
+	font-size: 30px;
+	color:#069;	
+}
 #md{
-	margin-top: 0;	
+		
 	padding-left: 105px; 
 	font-size:24px;
 	font-style:bold;
@@ -47,13 +60,14 @@ h2 {
 #mc{
 	margin-top: 0;	
 	padding-left: 105px; 
+	
 	font-size:24px;
 	font-style: italic;
 }
 
 #cara{
 	float:right;
-	padding-right:150px;	
+	padding-right:100px;	
 }
 a img { 
 	border: none;
@@ -68,15 +82,15 @@ a:link {
 .sidebar1 {
 	float: left;
 	width: 230px;
-	height: 620px;
+	height: 570px;
 	background: #F7B288;
 
 }
 .content {
 	padding: 10px 0;
 	
-	width: 800px;
-	height:600px;
+	width: 700px;
+	height:550px;
 	float: left;
 	background: #fbe7da;
 	border-top:#000;
@@ -98,7 +112,7 @@ ul {
 }	
 	
 #tabla{
-	
+	margin-top:10px;
 	border-top:solid 1px black;
 }
 
